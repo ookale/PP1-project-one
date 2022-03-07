@@ -38,13 +38,21 @@ nav > a {
 
 #textblock-left {
     border: 1px solid;
-    width: 30%;
-    margin: 5% 0 5% 10%; 
+    width: 35%;
+    margin: 5% 0 0 10%; 
     padding: 10px;
     font-size: x-large;
-    font-weight: 
+    letter-spacing: 2px;
+    background-color: #C9C9C9;  
+}
+
+#textblock-right {
+    border: 1px solid;
+    width: 35%;
+    margin: 0 10% 0 0; 
+    padding: 10px;
+    font-size: x-large;
     letter-spacing: 2px;
     background-color: #C9C9C9; 
-    position: relative;
-    
+    float: right;
 }
