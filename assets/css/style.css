@@ -10,7 +10,7 @@
 body {
     font-family: Lato, sans-serif;
     color: black; 
-    background-color: red
+    background-color: whitesmoke; 
 }
 
 #header {
@@ -50,7 +50,7 @@ nav a:hover {
     padding: 10px;
     font-size: x-large;
     letter-spacing: 3px;
-    background-color: #C9C9C9;  
+    background-color: #F2FAFF;  
 }
 
 #textblock-right {
@@ -60,7 +60,7 @@ nav a:hover {
     padding: 10px;
     font-size: x-large;
     letter-spacing: 3px;
-    background-color: #C9C9C9; 
+    background-color: #F2FAFF; 
     float: right;
 }
 
