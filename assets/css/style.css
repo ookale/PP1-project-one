@@ -62,17 +62,16 @@ nav a:hover {
     letter-spacing: 3px;
     background-color: #F2FAFF; 
     float: right;
-}
-
-.clear {
-    clear: both; 
+    clear: left;
 }
 
 #submit-form {
     text-align: center;
+    width: 100%;
     margin: 5px;
-    padding: 10px;
-    font-size: 
+    padding: 5px;
+    background-color: #683E00;
+    clear: right;  
 }
 
 div > input {
@@ -91,6 +90,7 @@ button {
 footer {
     background-color: #70a4e9;
     height: 100px;
+    width: 100%;
 }
 
 .social-media {
