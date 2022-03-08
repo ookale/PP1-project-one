@@ -27,15 +27,16 @@ body {
 .nav-background {
     background-color: #70A4E9; 
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
+    max-width: 100%;
+    height: 50px;
 }
 
 nav > a {
     text-decoration: none;
     font-size: 130%; 
     color: #683E00; 
-    padding: 50px;
-    margin: 40px;
+    padding: 10px;
 }
 
 nav a:hover {
@@ -43,30 +44,37 @@ nav a:hover {
 }
 
 #hero-image {
-    background: url(../images/background-image.jpg)
+    background: url(../images/hero-image.jpg);
     max-width: 100%;
+    height: 1200px;
+    background-position: center;
+    background-size: cover;
+}
+
+section > div {
+    padding-top: 10px;
 }
 
 #textblock-left {
     border: 1px solid;
     width: 35%;
-    margin: 5% 0 0 10%; 
+    margin-left: 10%; 
     padding: 10px;
     font-size: x-large;
     letter-spacing: 3px;
-    background-color: #F2FAFF;  
+    background-color: #F2FAFF; 
 }
 
 #textblock-right {
     border: 1px solid;
     width: 35%;
-    margin: 0 10% 5% 0; 
+    margin: 0 10% 0 0; 
     padding: 10px;
     font-size: x-large;
     letter-spacing: 3px;
     background-color: #F2FAFF; 
-    float: right;
-    clear: left;
+    float: right; 
+    clear: left
 }
 
 #submit-form {
