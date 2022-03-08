@@ -43,6 +43,10 @@ nav a:hover {
     color: #E585A0; 
 }
 
+#hero-image {
+    background: url(../images/background-image.jpg)
+}
+
 #textblock-left {
     border: 1px solid;
     width: 35%;
