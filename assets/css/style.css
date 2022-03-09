@@ -57,6 +57,8 @@ section > div {
 
 #textblock-left {
     border: 1px solid;
+    position: relative;
+    top: 10%;
     width: 35%;
     margin-left: 10%; 
     padding: 10px;
@@ -67,6 +69,8 @@ section > div {
 
 #textblock-right {
     border: 1px solid;
+    position: relative;
+    top: 13%;
     width: 35%;
     margin: 0 10% 0 0; 
     padding: 10px;
@@ -74,7 +78,6 @@ section > div {
     letter-spacing: 3px;
     background-color: #F2FAFF; 
     float: right; 
-    clear: left
 }
 
 #submit-form {
