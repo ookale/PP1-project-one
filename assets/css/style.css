@@ -177,4 +177,14 @@ li a {
     column-gap: 1px; 
 }
 
+section > iframe {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
 
+.iframe {
+    position:relative;
+    top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
