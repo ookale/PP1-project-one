@@ -143,13 +143,14 @@ li a {
 
 /* history page main section */
 
-#hero-image-gallery {
+#hero-image-history {
     background: rgba(0, 0, 0, 0.5) url(../images/hero-image.webP);
     max-width: 100%;
     height: 1200px;
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
+}
 
 #textblock-left-top {
     border: 1px solid;
@@ -168,10 +169,11 @@ li a {
     position: relative;
     width: 35%;
     margin-right: 10%;
-    padding: 10px;
+    padding: 5px;
     font-size: x-large;
     letter-spacing: 3px;
     background-color: #DEF2FF; 
+    float: right; 
 }
 
     #textblock-left-bottom {
@@ -189,13 +191,14 @@ li a {
 #textblock-right-bottom {
     border: 1px solid;
     position: relative;
-    top: 15%;
+    top: 10%;
     width: 35%;
     margin-right: 10%; 
     padding: 10px;
     font-size: x-large;
     letter-spacing: 3px;
     background-color: #DEF2FF; 
+    float: right;
 }
 
 /* gallery page */
@@ -216,10 +219,8 @@ section > iframe {
 }
 
 .iframe {
-    position:relative;
-    top: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* media queries */
@@ -234,19 +235,45 @@ section > iframe {
         align-items: flex-start;
     }
 
-    #hero-image-gallery {
+    #hero-image-history {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: flex-start;
+        align-items: flex-start; 
     }
 
     #textblock-right, #textblock-left {
         top: 0;
     }
 
-    #textblock-left-top, #textblock-right-top {
+    #textblock-left-top, #textblock-right-top, #textblock-left-bottom, #textblock-right-bottom{
         top: 0;
+        margin: 0;
+        padding: 0;
+    }
+}
 
+/* For medium screen sizes 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #textblock-left-top, #textblock-right-top, #textblock-left-bottom, #textblock-right-bottom{
+        font-size: 20px; 
+    }
+}
+
+/* For medium to smaller screen sizes 720px and down */
+
+@media screen and (max-width: 720px) {
+    #textblock-left-top, #textblock-right-top, #textblock-left-bottom, #textblock-right-bottom {
+        width: 90%;
+    }
+
+    #hero-image-history {
+        overflow: scroll;
+        flex-wrap: wrap;
+    }
+
+    #photo {
+        column-count: 2;
     }
 }
