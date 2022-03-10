@@ -1,5 +1,11 @@
+Throwback in History
 
+This webpage is an information site for people interested in travelling and looking for a really exiting experience to tell your friends and familly about upon returning home. 
+The ancient horse race "Il Palio" dates back as far as 1633 and is of great importance to the residents of the small city of Siena Italy. The webpage contains a brief presentation of what the Palio is and tries to give a feel of what to expect when visiting the races. This is also presented in the gallery where the images and above all through the videos provided
 
+Features
+
+Existing Features
 
 Content
 The text content for the Home and history pages were taken from https://m.visittuscany.com/en/ideas/palio-di-siena-all-the-things-you-need-to-know/
