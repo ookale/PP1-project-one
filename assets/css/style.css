@@ -248,7 +248,7 @@ section > iframe {
     #textblock-left-top, #textblock-right-top, #textblock-left-bottom, #textblock-right-bottom{
         top: 0;
         margin: 0;
-        padding: 0;
+        padding: 5px;
     }
 }
 
@@ -263,12 +263,16 @@ section > iframe {
 /* For medium to smaller screen sizes 720px and down */
 
 @media screen and (max-width: 720px) {
+    #textblock-left, #textblock-right {
+        margin-left: 0;
+        margin-right: 0;
+    } 
+
     #textblock-left-top, #textblock-right-top, #textblock-left-bottom, #textblock-right-bottom {
         width: 90%;
     }
 
     #hero-image-history {
-        overflow: scroll;
         flex-wrap: wrap;
     }
 
@@ -276,3 +280,22 @@ section > iframe {
         column-count: 2;
     }
 }
+
+/* For smaller screen sizes 600px and down */
+
+@media screen and (max-width: 600px) {
+    #hero-image {
+        overflow: scroll;
+        column-gap: 5px;
+    }
+}
+
+/* For smaller screen sizes 600px and down */
+
+@media screen and (max-width: 450px) {
+    #hero-image-history {
+        overflow: scroll;
+    }
+}
+
+    
