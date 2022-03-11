@@ -9,9 +9,10 @@
 
 body {
     font-family: Lato, sans-serif;
-    color: black; 
-    background-color: whitesmoke; 
+    color: black;
+    background-color: whitesmoke;
 }
+
 /* header and nav on all pages */
 
 #header {
@@ -25,22 +26,22 @@ body {
 }
 
 .nav-background {
-    background-color: #c3d7f1; 
+    background-color: #c3d7f1;
     text-align: center;
     padding-top: 15px;
     height: 50px;
 }
 
-nav > a {
+nav>a {
     text-decoration: none;
     font-family: Cinzel, sans-serif;
     color: black;
-    font-size: 130%; 
+    font-size: 130%;
     padding: 10px;
 }
 
 nav a:hover {
-    color: steelblue; 
+    color: steelblue;
 }
 
 /* main section on home page*/
@@ -54,7 +55,7 @@ nav a:hover {
     background-blend-mode: darken;
 }
 
-section > div {
+section>div {
     padding-top: 10px;
 }
 
@@ -63,7 +64,7 @@ section > div {
     position: relative;
     top: 10%;
     width: 35%;
-    margin-left: 10%; 
+    margin-left: 10%;
     padding: 5px;
     font-size: x-large;
     letter-spacing: 3px;
@@ -79,7 +80,7 @@ section > div {
     padding: 10px;
     font-size: x-large;
     letter-spacing: 3px;
-    background-color: #DEF2FF; 
+    background-color: #DEF2FF;
     float: right;
 }
 
@@ -87,10 +88,10 @@ section > div {
 
 #submit-form {
     padding: 10px;
-    background-color: #c3d7f1; 
+    background-color: #c3d7f1;
 }
 
-form > div {
+form>div {
     text-align: center;
 }
 
@@ -99,16 +100,16 @@ label {
     letter-spacing: 2px;
 }
 
-div > input {
+div>input {
     font-size: medium;
     margin: 10px;
-    padding: 5px;   
-    width: 25%; 
+    padding: 5px;
+    width: 25%;
     background-color: whitesmoke;
 }
 
 button {
-    font-size: large; 
+    font-size: large;
     margin: 5px;
     padding: 5px;
     border: 1px solid;
@@ -132,8 +133,8 @@ footer {
 li {
     font-size: x-large;
     list-style-type: none;
-    display: inline; 
-    margin: 5%;  
+    display: inline;
+    margin: 5%;
 }
 
 li a {
@@ -157,11 +158,11 @@ li a {
     position: relative;
     top: 5%;
     width: 35%;
-    margin-left: 10%; 
+    margin-left: 10%;
     padding: 5px;
     font-size: x-large;
     letter-spacing: 3px;
-    background-color: #DEF2FF; 
+    background-color: #DEF2FF;
 }
 
 #textblock-right-top {
@@ -172,20 +173,20 @@ li a {
     padding: 5px;
     font-size: x-large;
     letter-spacing: 3px;
-    background-color: #DEF2FF; 
-    float: right; 
+    background-color: #DEF2FF;
+    float: right;
 }
 
-    #textblock-left-bottom {
+#textblock-left-bottom {
     border: 1px solid;
-    position: relative; 
+    position: relative;
     top: 15%;
     width: 35%;
-    margin-left: 10%; 
+    margin-left: 10%;
     padding: 10px;
     font-size: x-large;
     letter-spacing: 3px;
-    background-color: #DEF2FF; 
+    background-color: #DEF2FF;
 }
 
 #textblock-right-bottom {
@@ -193,11 +194,11 @@ li a {
     position: relative;
     top: 10%;
     width: 35%;
-    margin-right: 10%; 
+    margin-right: 10%;
     padding: 10px;
     font-size: x-large;
     letter-spacing: 3px;
-    background-color: #DEF2FF; 
+    background-color: #DEF2FF;
     float: right;
 }
 
@@ -208,26 +209,28 @@ li a {
 }
 
 #photo {
-    line-height: 0; 
+    line-height: 0;
     column-count: 3;
-    column-gap: 1px; 
+    column-gap: 1px;
 }
 
-section > iframe {
+section>iframe {
     margin-top: 8%;
     margin-bottom: 8%;
 }
 
 .iframe {
-    margin-top; 20px;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
 }
 
 /* media queries */
 
 /* For large to medium screens size from 1200px wide and down */
 
-@media screen and (max-width: 1200px){
-     #hero-image {
+@media screen and (max-width: 1200px) {
+    #hero-image {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -238,14 +241,18 @@ section > iframe {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: flex-start; 
+        align-items: flex-start;
     }
 
-    #textblock-right, #textblock-left {
+    #textblock-right,
+    #textblock-left {
         top: 0;
     }
 
-    #textblock-left-top, #textblock-right-top, #textblock-left-bottom, #textblock-right-bottom{
+    #textblock-left-top,
+    #textblock-right-top,
+    #textblock-left-bottom,
+    #textblock-right-bottom {
         top: 0;
         margin: 0;
         padding: 5px;
@@ -255,20 +262,30 @@ section > iframe {
 /* For medium screen sizes 950px wide and down */
 
 @media screen and (max-width: 950px) {
-    #textblock-left-top, #textblock-right-top, #textblock-left-bottom, #textblock-right-bottom{
-        font-size: 20px; 
+
+    #textblock-left-top,
+    #textblock-right-top,
+    #textblock-left-bottom,
+    #textblock-right-bottom {
+        font-size: 20px;
     }
+
 }
 
 /* For medium to smaller screen sizes 720px and down */
 
 @media screen and (max-width: 720px) {
-    #textblock-left, #textblock-right {
+
+    #textblock-left,
+    #textblock-right {
         margin-left: 0;
         margin-right: 0;
-    } 
+    }
 
-    #textblock-left-top, #textblock-right-top, #textblock-left-bottom, #textblock-right-bottom {
+    #textblock-left-top,
+    #textblock-right-top,
+    #textblock-left-bottom,
+    #textblock-right-bottom {
         width: 90%;
     }
 
@@ -288,14 +305,20 @@ section > iframe {
         overflow: scroll;
         column-gap: 5px;
     }
+
+    div>input {
+        width: 35%;
+    }
 }
 
-/* For smaller screen sizes 600px and down */
+/* For smaller screen sizes 450px and down */
 
 @media screen and (max-width: 450px) {
     #hero-image-history {
         overflow: scroll;
     }
-}
 
-    
+    div>input {
+        width: 45%;
+    }
+}
