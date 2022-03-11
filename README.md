@@ -56,6 +56,8 @@ For the gallery I wanted to provide images that gives the user a feel for what t
 
 ![Gallery](/screen-shots/gallery.png)
 
+![Gallery videos](/screen-shots/gallery2.png)
+
 ## Features left to implement
 
 - I would like to add a page where the user can read more in detail about the different districts of the city. Pictures of their symbols and colors to go along with written information. Also a map showing where in the city you can encounter the different districts. 
@@ -64,6 +66,30 @@ For the gallery I wanted to provide images that gives the user a feel for what t
 
 ## Testing
 
+![Home page](/screen-shots/home.png)
+
+
+- Header and navigation bar is responsive on all screen sizes. 
+
+- Index page is responsive on all screen sizes and when the width goes below 1200px the text boxes lies right beneath the navigation bar side-by-side and streches downward as the screen decreases. When the screen size goes below 600px there is a scroll bar for easier access. 
+
+![Index top](/screen-shots/index-responsive-top.png)
+
+![Index bottom](/screen-shots/index-responsive-bottom.png)
+
+- History is responsive on all screen sizes and when the width goes below 1200px the text boxes lies right beneath the navigation bar side-by-side and streches downward as the screen decreases. When the screen size goes below 720px i decided to place them horisontally on top of eachother for easier readabillity. Below 450px there is a scroll bar for easier access. 
+
+![History(/screen-shots/history1.png)
+
+![History(/screen-shots/history2.png)
+
+
+- Gallery
+Gallery page is responsive on all screen sizes and when the width goes below 720 the column decreases to two. 
+Videos are stacked below 1200px. 
+
+![Gallery(/screen-shots/gallery3.png)
+![Gallery(/screen-shots/gallery4.png)
 
 
 Content
