@@ -79,17 +79,17 @@ For the gallery I wanted to provide images that gives the user a feel for what t
 
 - History is responsive on all screen sizes and when the width goes below 1200px the text boxes lies right beneath the navigation bar side-by-side and streches downward as the screen decreases. When the screen size goes below 720px i decided to place them horisontally on top of eachother for easier readabillity. Below 450px there is a scroll bar for easier access. 
 
-![History(/screen-shots/history1.png)
+![History](/screen-shots/history1.png)
 
-![History(/screen-shots/history2.png)
+![History](/screen-shots/history2.png)
 
 
 - Gallery
 Gallery page is responsive on all screen sizes and when the width goes below 720 the column decreases to two. 
 Videos are stacked below 1200px. 
 
-![Gallery(/screen-shots/gallery3.png)
-![Gallery(/screen-shots/gallery4.png)
+![Gallery](/screen-shots/gallery3.png)
+![Gallery](/screen-shots/gallery4.png)
 
 ## Validator Testing
 
