@@ -46,6 +46,7 @@ nav a:hover {
 
 /* main section on home page*/
 
+/* Credit to Delftstack to solve this */
 #hero-image {
     background: rgba(0, 0, 0, 0.5) url(../images/hero-image.jpeg);
     max-width: 100%;
@@ -59,6 +60,7 @@ section>div {
     padding-top: 10px;
 }
 
+/* Credit to codegrepper to solve this and Codeinstitute for layout  */
 #textblock-left {
     border: 1px solid;
     position: relative;
@@ -71,6 +73,7 @@ section>div {
     background-color: #DEF2FF;
 }
 
+/* Credit to codegrepper to solve this and Codeinstitute for layout   */
 #textblock-right {
     border: 1px solid;
     position: relative;
@@ -152,7 +155,7 @@ li a {
     background-size: cover;
     background-blend-mode: darken;
 }
-
+/* Credit to codegrepper to solve this  */
 #textblock-left-top {
     border: 1px solid;
     position: relative;
@@ -164,7 +167,7 @@ li a {
     letter-spacing: 3px;
     background-color: #DEF2FF;
 }
-
+/* Credit to codegrepper to solve this  */
 #textblock-right-top {
     border: 1px solid;
     position: relative;
@@ -176,7 +179,7 @@ li a {
     background-color: #DEF2FF;
     float: right;
 }
-
+/* Credit to codegrepper to solve this  */
 #textblock-left-bottom {
     border: 1px solid;
     position: relative;
@@ -188,7 +191,7 @@ li a {
     letter-spacing: 3px;
     background-color: #DEF2FF;
 }
-
+/* Credit to codegrepper to solve this  */
 #textblock-right-bottom {
     border: 1px solid;
     position: relative;
@@ -207,7 +210,7 @@ li a {
 #photo img {
     max-width: 100%;
 }
-
+/* credit to Code institute for masonry layout */
 #photo {
     line-height: 0;
     column-count: 3;
@@ -226,6 +229,8 @@ section>iframe {
 }
 
 /* media queries */
+
+/* Credit to css tricks on how to solve flex-box layout for smaller screens and tutor support */
 
 /* For large to medium screens size from 1200px wide and down */
 
