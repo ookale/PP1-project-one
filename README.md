@@ -91,20 +91,53 @@ Videos are stacked below 1200px.
 ![Gallery(/screen-shots/gallery3.png)
 ![Gallery(/screen-shots/gallery4.png)
 
+## Validator Testing
 
-Content
-The text content for the Home and history pages were taken from https://m.visittuscany.com/en/ideas/palio-di-siena-all-the-things-you-need-to-know/
+- HTML
+No errors were returned when passing through the official [W3C validator]
 
-Googled on how to push the text blocks down on the home page since the background image followed and found this site that helped me get them into place. 
-https://www.codegrepper.com/code-examples/css/how+to+move+text+down+in+css
 
-Found a site to help me darken the hero image: https://www.delftstack.com/howto/css/darken-background-image-css/
+-CSS
+No errors were found when passing through the official [(Jigsaw) validator]
+
+- Lighthouse came back with good accessability but poor overall performance due to big images.
+
+
+## Unfixed bugs
+No unfixed bugs left in the webpage
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Main Branch
+Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://ookale.github.io/Throwback-in-history/
+
+## Content
+The text content for the Home and history pages were taken from [Visittuscany](https://m.visittuscany.com/en/ideas/palio-di-siena-all-the-things-you-need-to-know/)
+
+Googled on how to push the text blocks down on the home page since the background image followed and found this site that helped me get them into place. [Codegrepper]
+(https://www.codegrepper.com/code-examples/css/how+to+move+text+down+in+css)
+
+Found a site to help me darken the hero image [Delftstack](https://www.delftstack.com/howto/css/darken-background-image-css/)
 
 Inspired by the Coders Coffeehouse project on how to place the text boxes in the home page. 
-Used code snippet from Code Institute Love Running project on the gallery page to make the masonry layout
+
+Used code snippet from Code Institute [Love Running project](https://code-institute-org.github.io/love-running-2.0/index.html) on the gallery page to make the masonry layout
+
 The icons in the footer were taken from Font Awesome
 
 Media
-The hero image was taken from https://pixabay.com/sv/photos/palio-siena-toscana-711295/
-Images in the Gallery page was taken from: https://www.istockphoto.com/it/search/2/image?mediatype=photography&phrase=palio%20siena
+The hero image was taken from [Pixaby](https://pixabay.com/sv/photos/palio-siena-toscana-711295/)
+Images in the Gallery page was taken from [Istockphoto] (https://www.istockphoto.com/it/search/2/image?mediatype=photography&phrase=palio%20siena)
+
+Videos taken from Youtube.
+[Palio official trailer](https://www.youtube.com/watch?v=JkI7OhMeCFA)
+[BBC youtube channel](https://www.youtube.com/watch?v=zCtWidd0vMo&t=1s)
+[Pietro Pacco Youtube channel](https://www.youtube.com/watch?v=nnRr3kFmsWQ&t=1s)
+
+## Credits
+- Thanks to my mentor Anthony for input
+- Thanks to Tutor support for help 
 
